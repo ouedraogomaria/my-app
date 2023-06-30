@@ -1,0 +1,21 @@
+.apartmentColor{
+    background-color: rgb(242, 239, 236);
+    height: 35em;
+    width: auto;
+    margin: 2em;
+    border-radius: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-items: center;
+
+}
+
+.apartment{
+    background-color: #FF6060;
+    height: 15em;
+    width: 30%;
+    margin: 1em;
+    border-radius: 0.5em;
+    
+}

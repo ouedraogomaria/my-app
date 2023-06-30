@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, BrowserRouter} from 'react-router-dom';
-import Home from "./pages/Home"
-import Navbar from "./components/Navbar"
-import About from "./pages/About"
-import Banner from "./components/Banner"
+import Home from "./pages/Home.js"
+import Navbar from "./components/Navbar.js"
+import About from "./pages/About.js"
+import Banner from "./components/Banner.js"
+import ApartmentColor from './components/ApartmentColor.js';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Banner/>
+      <ApartmentColor/>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About/>} />
