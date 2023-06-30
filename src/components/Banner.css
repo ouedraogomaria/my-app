@@ -1,0 +1,11 @@
+.banner{
+    width: auto;
+    height: 10em;
+    border-radius: 2em;
+    margin: 2em;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+    color: #ffffff;
+}
+ 
