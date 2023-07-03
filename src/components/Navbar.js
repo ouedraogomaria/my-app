@@ -1,15 +1,24 @@
 import React from 'react';
 import "./Navbar.css"
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Navbar() {
+    const location = useLocation();
     return (
         <nav className='navbar'>
             <div className='navbar_logo'>
                 <img src= "Logo.png" alt= "logo" />
             </div>
-            <NavLink to="/">Accueil</NavLink>
-            <NavLink to="/About">A Propos</NavLink>
+            <NavLink 
+                to="/"
+                className={()=> {if(location.pathname === "/") {return "active"}}}
+            
+                >Accueil</NavLink>
+            <NavLink to="/About"
+                className={()=> {if(location.pathname === "/About") {return "active"}}}
+
+                >A Propos</NavLink>
+            
         </nav>
     )
 }

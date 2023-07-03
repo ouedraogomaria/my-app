@@ -5,7 +5,9 @@ function Banner() {
     return (
         <div className="banner">
             <h1>Chez vous, partous et ailleurs</h1>
+            <div className='backdrop'></div>
         </div>
+
     )
 }
 

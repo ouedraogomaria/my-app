@@ -15,8 +15,20 @@
 .apartment{
     background-color: #FF6060;
     height: 15em;
-    width: 30%;
+    width: 28%;
     margin: 1em;
     border-radius: 0.5em;
+    display: flex;
     
+}
+
+.apartment_tilte{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1em;
+    margin-block-start: auto;
+    padding: 0 1em;
+    width: 5em;
+    text-align: start;
+
 }

@@ -2,10 +2,37 @@
     display: flex;
     align-items: center;
     padding: 0 2em;
-    color:#FF6060;
+   
     
 }
 
+.navbar a{
+    color:#FF6060;
+    text-decoration: none;
+    margin: 2em;
+    
+}
 .navbar_logo{
     margin-right: auto;
 } 
+
+.navbar a:hover{
+    border-bottom: 1px solid #FF6060;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        margin-right: 0;
+    }
+
+    .navbar a{
+        margin: 0.5em;
+        font-size: 0.9em;
+    }
+
+    .navbar_logo{
+        font-weight: 300;
+    }
+
+    }
