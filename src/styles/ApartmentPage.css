@@ -1,0 +1,13 @@
+.apartmentpage{
+    color:#FF6060;
+    margin: 0 3em;
+    
+}
+
+
+.apartment1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+

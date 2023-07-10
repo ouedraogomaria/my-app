@@ -1,12 +1,11 @@
 .banner{
     width: auto;
-    height: 10em;
-    border-radius: 2em;
+    height: 9em;
+    border-radius: 1em;
     margin: 2em;
     display: grid;
     place-items: center;
     color: #ffffff;
-    background-image: url('../../public/banner.png');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,3 +22,24 @@
     opacity:30%;
     background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .apartment{
+        width: 100%;
+        
+    }
+    .banner{
+        height: 6em;
+        margin: 1em;
+    }
+    .banner h1{
+        font-size: 2em;
+        font-weight: 400;
+        padding-left: 0.5em;
+    }
+    .banner>h1{
+        margin: 0;
+    }
+}
+

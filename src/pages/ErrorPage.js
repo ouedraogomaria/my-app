@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
-import '../pages/ErrorPage.css';
+import '../styles/ErrorPage.css';
 import { NavLink } from 'react-router-dom';
 
 function ErrorPage() {

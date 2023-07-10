@@ -1,29 +1,20 @@
 import React from 'react';
 import "./ApartmentColor.css"
+import { Link } from 'react-router-dom';
+import apartments from '../datas/Logement.json' 
 
 function ApartmentColor() {
     return (
         <div className='apartmentColor'>
-            <div className='apartment'>
-                <h3 className='apartment_tilte'>Titre de la location</h3>
-            </div>
-            <div className='apartment'>
-                <h3 className='apartment_tilte'>Titre de la location</h3>
-            </div>
-            <div className='apartment'>
-                 <h3 className='apartment_tilte'>Titre de la location</h3>      
-            </div>
-            <div className='apartment'>
-                 <h3 className='apartment_tilte'>Titre de la location</h3>
-            </div>
-            <div className='apartment'>
-                <h3 className='apartment_tilte'>Titre de la location</h3>
-            </div>
-            <div className='apartment'>
-                <h3 className='apartment_tilte'>Titre de la location</h3>
-            </div>
-
-
+            {apartments.map((apartment) => (
+                <div className='apartment'>
+                    <Link to={'/flats/' + apartment.id}>
+                        <h3>{apartment.title}</h3>
+                    </Link>
+                </div>
+            ))}
+            
+            
         </div>       
     )
 }

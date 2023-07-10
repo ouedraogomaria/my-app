@@ -7,6 +7,7 @@
 }
 
 .navbar a{
+    font-size: 1.2em;
     color:#FF6060;
     text-decoration: none;
     margin: 2em;
@@ -15,16 +16,17 @@
 .navbar_logo{
     margin-right: auto;
 } 
-
+.navbar img{
+    width: 6em;
+    height: 2em;
+    
+}
 .navbar a:hover{
     border-bottom: 1px solid #FF6060;
 }
 
 
-@media screen and (max-width: 600px) {
-    .navbar{
-        margin-right: 0;
-    }
+@media screen and (max-width: 768px) {
 
     .navbar a{
         margin: 0.5em;

@@ -9,5 +9,10 @@
 
 .text_footer{
     color: #ffffff;
-    margin-top: 2em;
+    margin-top: 1.5em;
+}
+
+.logo_footer img{
+    width: 6em;
+    height: 2em;
 }

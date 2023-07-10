@@ -1,0 +1,29 @@
+
+.apartment_info{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+}
+.apartment_info span{
+    background-color: #FF6060;
+    color: #ffffff;
+    border-radius: 0.8em;
+    width: 8em;
+    padding: 0.3em 0.3em;
+    font-size: x-small;
+    
+}
+
+
+
+.apartment_tilte h1{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.apartment_tilte h2{
+    font-size: 1em;
+    margin-top: 0;
+    font-weight: 400;
+}
