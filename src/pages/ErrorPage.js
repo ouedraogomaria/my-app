@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar.js';
-import Footer from '../components/Footer.js';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../styles/ErrorPage.css';
 import { NavLink } from 'react-router-dom';
 

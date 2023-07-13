@@ -1,18 +1,18 @@
 import React from 'react';
+import '../components/ApartmentProprietor.css'
+import ApartmentRate from '../components/ApartmentRate';
 
 function ApartmentProprietor() {
     return (
-        <div className='apartment_proprietor'>
-            <div>
-                <h3>Alexandre Dumas</h3>
-            </div>
-            <div>
-                <span>start</span>
-                <span>start</span>
-                <span>start</span>
-                <span>start</span>
-                <span>start</span>
-            </div>
+        <div>
+            <div className='apartment_proprietor'>
+                <h3>
+                    <span className='apartment_firstname'>Alexandre</span>
+                    <span className='apartment_secondname'>Dumas</span>
+                </h3>
+                <p className='apartment_chevron'></p>
+            </div>  
+            <ApartmentRate icon='<i class="fa-light fa-star"></i>'/>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 
-.apartment_info{
+.apartment_tag{
     display: flex;
     gap: 0.5em;
     text-align: center;
 }
-.apartment_info span{
+.apartment_tag span{
     background-color: #FF6060;
     color: #ffffff;
     border-radius: 0.8em;

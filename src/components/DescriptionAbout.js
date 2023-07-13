@@ -4,11 +4,12 @@ import "./DescriptionAbout.css"
 function DescriptionAbout() {
     return (
         <><div className="description">
-            <h3>Fiabilité</h3>
-                <p>Les annonces postées sur Kasa garantissent une fiabilité totale.
+            <h3>Description</h3>
+            <img src=''></img>
+            <p>Les annonces postées sur Kasa garantissent une fiabilité totale.
                 Les photos sont conformes aux logements,
                 et toutes les informations sont régulièrement vérifiées par nos équipes.
-                </p>
+            </p>
         </div>
         <div className="description">
             <h3>Respect</h3>

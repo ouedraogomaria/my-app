@@ -1,9 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbar.js';
-import Banner from '../components/Banner.js';
-import DescriptionAbout from '../components/DescriptionAbout.js';
-import Footer from '../components/Footer.js';
+import Navbar from '../components/Navbar';
+import Banner from '../components/Banner';
+import DescriptionAbout from '../components/DescriptionAbout';
+import Footer from '../components/Footer';
 import Background from '../assets/img.png'
+
 function About() {
     return (
         <>

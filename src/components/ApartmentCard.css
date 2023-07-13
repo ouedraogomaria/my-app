@@ -1,0 +1,33 @@
+.apartment{
+    background-color: #FF6060;
+    height: 13em;
+    width: 28%;
+    margin: 1em;
+    border-radius: 1em;
+    position: relative;
+    
+}
+
+.apartment_title{
+    color: #ffffff;
+    font-weight: 300; 
+    padding: 0 1em;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 5%;
+}
+
+.apartment img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+    .apartment{
+        width: 100%;    
+    }
+}
