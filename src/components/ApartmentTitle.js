@@ -1,7 +1,7 @@
 import React from 'react';
-import './ApartmentTilte.css'
-import Accordeon from './Accordeon.js'
-function ApartmentTilte() {
+import './ApartmentTitle.css'
+
+function ApartmentTitle() {
     return (
         <div className='apartment_tilte'>
             <h1>Cozy loft on the Canal Saint-Martin</h1>
@@ -11,9 +11,8 @@ function ApartmentTilte() {
                 <span>Canal</span>
                 <span>Paris 10</span>
             </div>
-            <Accordeon/>
         </div>
     )
 }
 
-export default ApartmentTilte
+export default ApartmentTitle

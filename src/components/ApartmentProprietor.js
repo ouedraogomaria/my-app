@@ -7,12 +7,12 @@ function ApartmentProprietor() {
         <div>
             <div className='apartment_proprietor'>
                 <h3>
-                    <span className='apartment_firstname'>Alexandre</span>
+                    <div className='apartment_firstname'>Alexandre</div>
                     <span className='apartment_secondname'>Dumas</span>
                 </h3>
                 <p className='apartment_chevron'></p>
             </div>  
-            <ApartmentRate icon='<i class="fa-light fa-star"></i>'/>
+            <ApartmentRate/>
         </div>
     )
 }
