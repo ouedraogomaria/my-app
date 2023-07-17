@@ -1,7 +1,7 @@
 import React from 'react';
-import '../components/Carrousel.css'
+import '../components/Carousel.css'
 
-function Carrousel({pictures}) {
+function Carousel({pictures}) {
     console.log(pictures)
     return (
         <div className='carrousel'>
@@ -11,4 +11,5 @@ function Carrousel({pictures}) {
     )
 }
 
-export default Carrousel
+export default Carousel
+
