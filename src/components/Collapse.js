@@ -1,8 +1,5 @@
 import React from "react";
-import React, { useState } from 'react';
-
-
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
 const Collapse = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);

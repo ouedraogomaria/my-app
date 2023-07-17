@@ -1,0 +1,16 @@
+.apartmentrate{
+    padding-left: 2em;
+}
+
+.apartmentrate i{
+    margin: 0.3em;
+    font-size: 1.2em;
+
+}
+
+.checked{
+   color: #FF6060;
+}
+.decolaration{
+   color: rgb(208, 206, 204);
+}
