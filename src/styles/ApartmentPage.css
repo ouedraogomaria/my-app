@@ -12,3 +12,10 @@
     padding-top: 1em;
 }
 
+.apartment_description {
+    display: flex;  
+    gap: 2em;
+}
+.apartment_content{
+    width: 50%;
+}

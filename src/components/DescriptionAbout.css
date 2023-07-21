@@ -1,7 +1,11 @@
+.description_content{
+    height: 34em;
+    margin: 0 7em;
+}
 .description{
     background-color:  rgb(242, 239, 236);
-    margin: 0 6em;
     border-radius: 0.7em;
+    margin-bottom: 1.5em;
     
 }
 

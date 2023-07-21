@@ -1,21 +1,4 @@
 
-.apartment_tag{
-    display: flex;
-    gap: 0.5em;
-    text-align: center;
-}
-.apartment_tag span{
-    background-color: #FF6060;
-    color: #ffffff;
-    border-radius: 0.8em;
-    width: 8em;
-    padding: 0.3em 0.3em;
-    font-size: x-small;
-    
-}
-
-
-
 .apartment_tilte h1{
     font-size: 1.8em;
     font-weight: 500;

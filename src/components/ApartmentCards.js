@@ -6,8 +6,9 @@ import ApartmentCard from './ApartmentCard';
 function ApartmentCards() {
     return (
         <div className='apartmentcard'>
+            
             {apartments.map((apartment) => (
-             <ApartmentCard title={apartment.title} imageUrl={apartment.cover}  key={apartment.id}/>
+             <ApartmentCard title={apartment.title} imageUrl={apartment.cover} key={apartment.id} id={apartment.id}/>
             ))}
             
             

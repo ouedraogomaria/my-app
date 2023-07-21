@@ -1,7 +1,6 @@
 .footer{
     background-color: black;
-    height: 7em;
-    padding-top: 2em;
+    height: 8em;
     text-align: center;
 }
 
@@ -16,4 +15,6 @@
 .logo_footer img{
     width: 6em;
     height: 2em;
+    padding-top: 2em;
+    font-size: 0.8em;
 }

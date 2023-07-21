@@ -1,10 +1,8 @@
-.apartment_proprietor{
+.apartment_host{
     display: flex;
     margin-left: 2em;
-    justify-content: center;
 }
-
-.apartment_proprietor h3{
+.apartment_host span{
     display: flex;
     font-weight: 400;
     font-size: 0.9em;
@@ -12,16 +10,9 @@
     margin-right: 1em;
 
 }
-.apartment_secondname{
-    margin-left: 1.5em;
-}
-.apartment_details {
-    display: flex;
-    
-    
-}
 
-.apartment_chevron{
+
+.apartment_host img{
     width: 4em;
     height: 4em;
     border-radius: 4em;
