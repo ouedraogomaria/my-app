@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function ApartmentCard(props) {
-    console.log(props)
+    
     return (
         <div className='apartment' key={props.id}>
             
