@@ -1,25 +1,26 @@
 .errorpage{
     color:#FF6060;
     text-align: center;
-    place-items: center;
-    height: 30em;
+    height: 45em;
 
 }
 .errorpage h1{
-    width: auto;
-    font-size: 5em;
-    font-weight: 700;
+    font-size: 11em; 
+    margin-bottom: 0;
+    
 }
 
-.errorpage h2{
-    width: auto;
-    font-size: 2em;
-    font-weight: 500;
 
+.errorpage p{
+    font-size: 2em;
+    margin-bottom: 3em;  
+    line-height: 2em;  
 }
 .errorpage a{
     text-decoration: none;
     color:#FF6060;
+    font-size: 1em;
+    font-weight: 500;
     
 }
 
@@ -27,3 +28,24 @@
     border-bottom: 1px solid #FF6060;
 
 }
+
+@media screen and (max-width: 768px) {
+    
+    
+    .errorpage h1{
+        font-size: 8em;    
+    }
+
+    .errorpage p{
+        font-size: 1.3em;
+        font-weight: 500;
+        line-height: 1.5em;
+        text-indent: 25%;
+        padding: 1em;
+        margin-top: 0;
+    }
+}
+
+    
+
+    

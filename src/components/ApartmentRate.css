@@ -1,9 +1,10 @@
 .apartmentrate{
-    padding-left: 2em;
+    margin-top: 0.4em;
+    margin-left: 5em;
 }
 
 .apartmentrate i{
-    margin: 0.3em;
+    margin: 0.2em;
     font-size: 1.2em;
 
 }
@@ -13,4 +14,14 @@
 }
 .decolaration{
    color: rgb(208, 206, 204);
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+    .apartmentrate{ 
+        margin-right: auto;
+        margin-left: 0;
+        
+    }
 }

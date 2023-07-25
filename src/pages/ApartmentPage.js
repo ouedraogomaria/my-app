@@ -20,18 +20,18 @@ function ApartmentPage() {
     console.log(apartment)
     return (
         <div>
-           <Navbar />
            <div className='apartmentpage'>
+                <Navbar />
                 <Carousel pictures={ apartment.pictures} />
                 <div className='apartment1'>
                     <div className='apartment_title_tag'>
                         <ApartmentTitle title ={apartment.title}  location= {apartment.location}/>
+                        <div className='tags'>
                         {
                             apartment.tags.map((tag) => 
                                 <ApartmentTag tag={tag} key={tag}/>)
                         }
-                        
-                        
+                        </div>  
                     </div>
                     <div className='apartment_proprietor_rate'>
                         <ApartmentHost name={apartment.host.name} picture={apartment.host.picture}/>
@@ -41,14 +41,14 @@ function ApartmentPage() {
                 <div className='apartment_description'>
                     <div className='apartment_content'>
                         <Accordeon title='Description'>
-                            <p>
+                            <p className='detail_description'>
                                 {apartment.description}
                             </p>
                         </Accordeon>
                     </div>
                     <div className='apartment_content'>
                         <Accordeon title='Équipements'>
-                            <ul className='equipement_detail'>
+                            <ul className='detail_equipement'>
                                 {apartment.equipments.map((equipment) => <li key={equipment}>{equipment}</li>)}
                                 
                             </ul>

@@ -1,11 +1,12 @@
 .description_content{
-    height: 34em;
-    margin: 0 7em;
+    height: 55em;
+    margin: 0 6em;
 }
 .description{
     background-color:  rgb(242, 239, 236);
     border-radius: 0.7em;
     margin-bottom: 1.5em;
+    
     
 }
 
@@ -22,6 +23,8 @@
 
 .description h3{
     margin-right: auto;
+    font-size: 1.1em;
+    font-weight: 300;
 
 }
 .description p{
@@ -29,4 +32,20 @@
     font-weight: 400;
     color: #FF6060;
     font-size: 0.9em;
+    
 }
+
+@media screen and (max-width: 768px) {
+    
+   .description_content{
+        width: 100%; 
+        height: 50em ;
+        margin: 5em 0;
+   }
+   .description{
+    margin-bottom: 2em;
+    
+
+   }
+   }
+

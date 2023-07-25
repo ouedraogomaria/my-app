@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: 0 2em;
-   
+    margin-top: 1em;
     
 }
 
@@ -35,6 +35,13 @@
 
     .navbar_logo{
         font-weight: 300;
+    }
+
+    .navbar{
+        
+        padding: 0 1em;
+        
+        
     }
 
     }
