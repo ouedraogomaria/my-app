@@ -4,14 +4,16 @@ import Banner from '../components/Banner';
 import DescriptionAbout from '../components/DescriptionAbout';
 import Footer from '../components/Footer';
 import Background from '../assets/img.png'
+import logo from '../assets/Logo.png';
+import logofooter from '../assets/Logofooter.png';
 
 function About() {
     return (
         <>
-            <Navbar/>
-            <Banner img={Background}/>
+            <Navbar logo={logo}/>
+            <Banner img={Background} classCss={"about banner"}/>
             <DescriptionAbout/>
-            <Footer/>
+            <Footer logofooter={logofooter}/>
             
         </>
     )

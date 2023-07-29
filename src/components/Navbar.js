@@ -2,12 +2,12 @@ import React from 'react';
 import "./Navbar.css"
 import { NavLink, useLocation } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
     const location = useLocation();
     return (
         <nav className='navbar'>
             <div className='navbar_logo'>
-                <img src= "Logo.png" alt= "logo" />
+                <img src= {props.logo} alt= "logo" />
             </div>
             <NavLink 
                 to="/"

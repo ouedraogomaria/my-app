@@ -10,18 +10,23 @@ import { useParams } from 'react-router-dom';
 import Accordeon from '../components/Accordeon';
 import ApartmentRate from '../components/ApartmentRate';
 import ApartmentTag from '../components/ApartmentTag';
+import logo from '../assets/Logo.png';
+import logofooter from '../assets/Logofooter.png';
+import ErrorPage from './ErrorPage';
 
 function ApartmentPage() {
-    //const apartment= apartments[0] 
+     
     const  {flatId} = useParams();
-    console.log(flatId)
 
     const apartment = apartments.find((apartment) => apartment.id === flatId);
-    console.log(apartment)
+    
+    if (!apartment) {
+        return <ErrorPage />;
+      }
     return (
         <div>
            <div className='apartmentpage'>
-                <Navbar />
+                <Navbar logo={logo}/>
                 <Carousel pictures={ apartment.pictures} />
                 <div className='apartment1'>
                     <div className='apartment_title_tag'>
@@ -56,7 +61,7 @@ function ApartmentPage() {
                     </div>
                 </div>
            </div>
-           <Footer/>
+           <Footer logofooter={logofooter}/>
         </div>
     )
 }

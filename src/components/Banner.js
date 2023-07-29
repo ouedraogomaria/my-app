@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Banner.css";
 
-function Banner({title,img}) {
+function Banner({title,img, classCss}) {
     return (
-        <div className="banner" style={{backgroundImage: `url(${img})`}}>
+        <div className={classCss} style={{backgroundImage: `url(${img})`}}>
             <h1>{title}</h1>
             <div className='backdrop' ></div>
 

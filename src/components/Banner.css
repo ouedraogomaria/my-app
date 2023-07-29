@@ -2,7 +2,8 @@
     width: auto;
     height: 9em;
     border-radius: 1em;
-    margin: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     display: grid;
     place-items: center;
     color: #ffffff;
@@ -13,7 +14,7 @@
 }
 
 .banner h1 {
-    z-index: 1
+    z-index: 1;
 
 }
 
@@ -31,15 +32,18 @@
     }
     
     .banner h1{
-        font-size: 1.9em;
+        font-size: 1.7em;
         font-weight: 500;
-        padding-left: 0.5em;
+        padding: 1em;
     }
     .banner>h1{
         margin: 0;
        
-        
-        
+    }
+
+    .about{
+        height: 15em;
+        margin: 1em;
     }
 }
 

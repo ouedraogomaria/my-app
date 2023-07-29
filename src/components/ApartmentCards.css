@@ -5,9 +5,13 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 2em;
-    
+    padding-bottom:  2em;
+    gap: 2em;
+    justify-content: center;
+
 
 }
+
 
 
 
