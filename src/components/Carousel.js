@@ -6,7 +6,7 @@ function Carousel({pictures}) {
     const [activePicture, setActivePicture] = useState(0);
 
     const carouselNextPicture = () =>{
-        if(activePicture +1 === pictures.length - 1){
+        if(activePicture +1 === pictures.length){
             return setActivePicture(0)
         }
         return setActivePicture(activePicture + 1)
@@ -17,17 +17,17 @@ function Carousel({pictures}) {
         }
         return setActivePicture(activePicture -1)
     }
-   
 
     return (
         <div className='carousel'>
-            
             <CarouselPicture picture={pictures[activePicture]}/>
-            
-            <button onClick={carouselNextPicture}><i className="fa-solid fa-chevron-left"></i></button>
-            <button  onClick={carouselPrevPicture}><i className="fa-solid fa-chevron-right"></i></button>
-            
-
+            {pictures.length >1 &&
+                <>
+                    <button className='btn_prev' onClick={carouselPrevPicture}><i className="fas fa-chevron-left"></i></button>
+                    <button className='btn_next' onClick={carouselNextPicture}><i className="fas fa-chevron-right"></i></button>
+                </>   
+            }
+            <span>{activePicture +1}/{pictures.length}</span>
         </div>
     )
 }

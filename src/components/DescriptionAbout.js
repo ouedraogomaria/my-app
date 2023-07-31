@@ -6,7 +6,7 @@ function DescriptionAbout() {
     
     return (
         <>
-        <div className='description_content'>
+        <div className='about_content'>
             <Accordeon title="Fiabilité"> 
                 <p>
                 Les annonces postées sur Kasa garantissent une fiabilité totale. 

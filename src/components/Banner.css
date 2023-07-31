@@ -26,15 +26,22 @@
     background-color: black;
 }
 
+
+.about{
+    margin-bottom: 2em;
+    height: 12em;
+}
+
 @media screen and (max-width: 768px) {
     .banner{
         height: 7em;
+        padding: 0.8em;
     }
     
     .banner h1{
-        font-size: 1.7em;
+        font-size: 1.9em;
         font-weight: 500;
-        padding: 1em;
+        
     }
     .banner>h1{
         margin: 0;
@@ -44,6 +51,7 @@
     .about{
         height: 15em;
         margin: 1em;
+       
     }
 }
 

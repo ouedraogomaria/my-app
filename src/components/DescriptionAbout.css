@@ -1,5 +1,5 @@
-.description_content{
-    height: 55em;
+.about_content{
+    min-height: 22em;
     margin-left: 6em;
     margin-right: 6em;
 }
@@ -32,16 +32,18 @@
     padding: 0.7em;
     font-weight: 400;
     color: #FF6060;
-    font-size: 0.9em;
+    font-size: 1em;
     
 }
 
 @media screen and (max-width: 768px) {
     
-   .description_content{
-        height: 50em ;
-        margin-left: 1em;
-        margin-right: 1em;
+   .about_content{
+    height: initial;
+    margin-left: 1em;
+    margin-right: 1em;
+    min-height: 21em;
+
         
    }
    .description{
@@ -51,3 +53,5 @@
    }
    }
 
+   
+    

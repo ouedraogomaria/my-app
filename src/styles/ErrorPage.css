@@ -40,9 +40,10 @@
         font-size: 1.3em;
         font-weight: 500;
         line-height: 1.5em;
-        text-indent: 25%;
         padding: 1em;
-        margin-top: 0;
+        margin: 0 auto 3em;
+        width: 70%;
+
     }
 }
 

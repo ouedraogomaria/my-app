@@ -24,9 +24,9 @@ function ApartmentPage() {
         return <ErrorPage />;
       }
     return (
-        <div>
+        <>
            <div className='apartmentpage'>
-                <Navbar logo={logo}/>
+                <Navbar logo={logo} />
                 <Carousel pictures={ apartment.pictures} />
                 <div className='apartment1'>
                     <div className='apartment_title_tag'>
@@ -62,7 +62,7 @@ function ApartmentPage() {
                 </div>
            </div>
            <Footer logofooter={logofooter}/>
-        </div>
+        </>
     )
 }
 

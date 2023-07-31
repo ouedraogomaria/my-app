@@ -4,7 +4,6 @@
     
 }
 
-
 .apartment1{
     display: flex;
     justify-content: space-between;
@@ -15,13 +14,14 @@
     display: flex;  
     gap: 3em;
     margin: 2em;
+    min-height: 6em;
 }
 .apartment_content{
     width: 50%;
 
 }
 .detail_equipement{
-    height: 12em;
+    height: 11.5em;
     line-height: 1.2em;
     list-style-type: none;
     padding: 0.7em;
@@ -38,7 +38,7 @@
 }
 
 .detail_description{
-    height: 13.5em;
+    height: 11.5em;
     line-height: 1.5em;
 }
 
@@ -60,15 +60,27 @@
     .apartment_description{
         margin: 0;
         padding-top: 1em;
+        ;
     }
 
+    .apartmentpage .navbar{
+        padding-left: 0.5em;
+    }
+
+    .detail_equipement{
+        height: 17.5em;
+        
+    }
+    .detail_description{
+        height: 17.5em;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .apartment1{
         display: flex;
         flex-direction: column;
-        margin: 0;
+        padding: 0;
     }  
 
     .apartment_proprietor_rate{
@@ -82,7 +94,7 @@
         flex-direction: column;
         gap: 0;
         margin: 0;
-        
+        min-height: 11em
     }
 
     .apartment_content{
@@ -96,7 +108,13 @@
     }
 
     .detail_equipement{
-        height: 13em;
+        height: 19em;
     }
-    
+
+    .detail_description{
+        height: 19em;
+    }
+    .apartmentpage .navbar{
+        padding-left: 0.5em;
+    }
 }

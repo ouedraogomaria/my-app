@@ -13,6 +13,7 @@
     position: absolute;
     inset: 0;
     border-radius: 1em;
+    transition:  2s ease-out;
 }
 
 .carousel button{
@@ -20,6 +21,32 @@
     z-index: 1;
 }
 
+.btn_prev{
+    top: 0;
+    bottom: 0;
+    font-size: 4em;
+    width: 1.5em;
+    background-color: transparent;
+    border-width: 0;
+    color: #ffffff;
+}
+.btn_next{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 4em;
+    width: 1.5em;
+    background-color: transparent;
+    border-width: 0;
+    color: #ffffff;
+
+}
+.carousel span{
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+    color: #ffffff;
+}
 
 @media screen and (max-width: 992px) {
     .carousel{
@@ -32,5 +59,16 @@
     .carousel{
         height: 15em;
         margin: 0;
+    }
+    .btn_next {
+        font-size: 1.5em;
+        width: 1.2em;
+    }
+    .btn_prev{
+        font-size: 1.5em;
+        width: 1.2em;
+    }
+    .carousel span{
+        display: none;
     }
 }

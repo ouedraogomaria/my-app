@@ -6,7 +6,7 @@ function Navbar(props) {
     const location = useLocation();
     return (
         <nav className='navbar'>
-            <div className='navbar_logo'>
+            <div className='navbar_logo' >
                 <img src= {props.logo} alt= "logo" />
             </div>
             <NavLink 

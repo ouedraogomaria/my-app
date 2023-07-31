@@ -14,7 +14,9 @@ const Accordeon = (props) => {
                 <div className='accordion-icon'>
                   <i onClick={()=>{ 
                     open == true ? setOpen(false) : setOpen(true)
-                    }} className= {'fa-solid ' + (open == true ? 'fa-chevron-up' : 'fa-chevron-down')}></i>
+                    }} className= {'fa-solid ' + (open == true ? 'fa-chevron-up' : 'fa-chevron-down')}>
+
+                  </i>
                 </div>
               </div>
             </div>
